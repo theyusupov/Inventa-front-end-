@@ -68,7 +68,7 @@ const DetailPartner = () => {
           </div>
         </div>
       </div>
-      <button className="bg-gray-70 shadow w-[80px]" onClick={()=> navigate(partner==='customer'?`/`:`/${partner}`)}>Go back</button>
+      <button className="bg-gray-70 shadow w-[80px] hover:bg-gray-100" onClick={()=> navigate(partner==='customer'?`/`:`/${partner}`)}>Go back</button>
     </Box>
   );
 };
